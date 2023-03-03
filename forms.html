@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Form</title>
+	<link href="css/forms.css" rel="stylesheet">
+</head>
+<body>
+	<p id="hm">Back to <a href="index.html">Home Page</a></p>
+	<div class="wrapper">
+		<section>
+			<h1>Contact Form</h1>
+			<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
+			<input type="hidden" name="send_to" value="bashtrust15@gmail.com">
+			<fieldset>
+				<legend>Your contact information</legend>
+				<label for="name">Your name</label>
+					<input type="text" id="name" name="name" placeholder="Full name">
+				<label for="phone">Phone number</label>
+					<input type="tel" id="phone" name="phone">
+				<label for="email">Email</label>
+					<input type="email" id="email" name="email">
+			</fieldset>
+
+			<fieldset>
+			<legend>Opinion</legend>
+				<p>Give your honest opinion. Rate on a scale of 1 - 4.</p>
+				<p class="typ">How would you like to rate my website?</p>
+					<label>
+						<input type="radio" name="zaba" value="classic">1</label>
+					<label>
+						<input type="radio" name="zaba" value="starwars">2</label>
+					<label>
+						<input type="radio" name="zaba" value="battlestar">3</label>
+					<label>
+						<input type="radio" name="zaba" value="borgstyle">4</label>
+					<label class="typ">Which type of web development do you prefer?</label>
+					<select>
+						<option selected>Select one...</option>
+						<option value="dinner">Frontend development</option>
+						<option value="dance">Backend development</option>
+						<option value="whales">Fullstack development</option>
+					</select>
+				<label for="comments">Special requests:</label>
+				<textarea id="comments" name="comments"></textarea>
+				<label>
+					<input type="checkbox" value="subcribe" name="subcribe" checked>Add me to your email list!
+				</label>
+			</fieldset>
+			<div class="submit">
+			<button type="submit">Submit</button>
+			</div>
+		</form>				
+		</section>
+	</div>
+	<script src="js/forms.js"></script>
+</body>
+</html>
+
+
+
+

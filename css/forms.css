@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	/*background-image: url(../img/galaxy.jpg);*/
+	background-color: rgb(230, 225, 225);
+}
+h1, h3, legend {
+	font-family: 'architects daughter', cursive;
+	color: rgb(202, 39, 39);
+}
+.wrapper {
+	width: 60%;
+	margin: 0 auto;
+	padding:;
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+	background-color: whitesmoke;
+}
+section {
+	flex-basis: 80%;
+}
+p {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+fieldset {
+	border: 1px solid;
+	border-radius: 20px;
+	background-color: rgb(230, 225, 225);
+	margin-top: 1.5rem;
+	margin-bottom:2rem;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.1rem;
+	font-style: normal;
+	margin-bottom: 1rem;
+	display: block;
+}
+label {
+	display: block;
+	margin-top: 15px;
+	color: ;
+}
+.typ {
+	color: #a51f10;
+}
+textarea {
+	height: 10rem;
+	padding: 1rem;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+select {
+	font-size: 1rem;
+}
+button {
+	font-size: 1rem;
+	margin: 2rem 0;
+	background-color: rgb(39, 123, 202);
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+	text-align: center;
+}
+button:hover {
+	background-color: white;
+	color: black;
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea {
+	display: block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem;
+	border: none;
+	border-radius: 10px;
+}
+h1, .submit {
+	text-align: center;
+}
+#hm {
+    text-align: center;
+}
+p a {
+	color:  rgb(122, 63, 4);
+	text-decoration: none;
+}
+a:hover {
+	color: maroon;
+}
+
+
+
+
+
+
+
+
+
+
+
+

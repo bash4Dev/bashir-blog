@@ -1,0 +1,62 @@
+body {
+    font-family:Georgia, 'Times New Roman', Courier, monospace, Times, serif;
+    background-color: #d1b790;
+}
+.wrapper {
+    width: 45rem;
+    height: 35rem;
+    margin: 0px auto;
+    background-color: snow;
+    display: flex;
+}
+section {
+    flex-basis: 69%;
+}
+article {
+    display: flex;
+}
+article .righthead {
+    display: block;
+    text-align: center;
+}
+h2 {
+    color: white;
+    background-color: rgb(206, 171, 106);
+    margin-top: 40px;
+}
+.aside {
+    flex-basis: 31%;
+    background-color: rgb(206, 171, 106);;
+}
+aside {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    background-color:
+}
+li {
+    padding: 0px;
+    margin-right: 50px;
+    list-style-type: none;
+}
+h3 {
+    color: white;
+}
+blockquote p {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+article p {
+    font-size: 1.2rem;
+}
+#hm {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(175, 119, 16);
+}
+a:hover {
+    color: snow;
+}

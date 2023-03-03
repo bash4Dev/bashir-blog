@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #A51F10;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+/*My Header Style starts*/
+header img{
+    width: 170px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.rightheader {
+    margin: 2rem 1rem;
+}
+.rightheader p {
+    color: green;
+    margin-top: -1.2rem;
+}
+header h1{
+    color: rgb(202, 39, 39);
+    padding: 6px 0 0 0;
+}
+header p{
+    font-size: 13px;
+    padding: 0px 0 10px 0;
+    margin: 0 0 10px 0;
+}
+/*Header style ends*/
+
+/*navigation bar starts*/
+nav {
+    border-top: 1px solid red;
+    border-bottom: 1px solid #DA0090;
+}
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+    width: 4rem; 
+    text-align: center;
+}
+nav a {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    display: block;
+    padding: 0.5rem 0.7px;
+}
+/*navigation bar ends*/
+
+/*article starts here*/
+article .pics1{
+    width: 15rem;
+}
+article {
+    margin: 2rem 0;
+}
+article img {
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border-radius: 1rem;
+}
+article .left{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+article:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+a {
+    color: maroon;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(247, 238, 221);
+    color: green;
+}
+.posted {
+    font-size: 0.8rem;
+    color: green;
+}
+/*Navigation ends*/
+
+section {
+    border-bottom: 1.7px solid #DA0090;
+    margin-bottom: 0.1rem;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1.7px solid red;
+}
+footer ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+footer li{
+    display: inline-block;
+}

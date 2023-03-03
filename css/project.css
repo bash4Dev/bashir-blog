@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(224, 197, 161);
+}
+.wrapper {
+    width: 50rem;
+    height: 35rem;
+    margin: 0px auto;
+    background-image: url(../img/img6.jpg);
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(224, 197, 161);
+    width: 13rem;
+    height: 20rem;
+    margin: 0px auto;
+}
+.first, .second {
+    margin-top: 5rem;
+    text-align: center;
+}
+p {
+    font-style: italic;
+    font-size: 1.3rem;
+}
+a {
+    color: rgb(122, 63, 4);
+    text-decoration: none;
+}
+a:hover {
+    color: snow;
+}
+#hm {
+    text-align: center;
+}
